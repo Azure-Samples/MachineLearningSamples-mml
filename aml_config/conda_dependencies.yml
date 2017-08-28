@@ -19,5 +19,5 @@ dependencies:
     # RevoScalePy
     - https://rserverdistribution.azureedge.net/production/pip/revoscalepy/9.2.0/2778/linux/397a83dd943a4039b6ed4ff83173466d/revoscalepy-9.2.0-py3-none-any.whl
     # MicrosoftML
-    # - https://rserverdistribution.azureedge.net/production/pip/microsoftml/1.4.0/1283/linux/87a388a5b7f642088c88076f0cdb73c9/microsoftml-1.4.0-py3-none-any.whl
-    - /azureml-share/microsoftml-1.4.0-py3-none-any.whl
+    - https://rserverdistribution.azureedge.net/production/pip/microsoftml/1.4.0/1283/linux/87a388a5b7f642088c88076f0cdb73c9/microsoftml-1.4.0-py3-none-any.whl
+    

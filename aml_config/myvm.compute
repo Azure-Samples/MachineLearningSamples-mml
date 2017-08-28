@@ -1,7 +1,0 @@
-address: haidsvm4.southcentralus.cloudapp.azure.com
-baseDockerImage: microsoft/mmlspark:0.7
-nativeSharedDirectory: ~/.azureml/share/
-password: AzureMlSecret=myvm#ninghai#539024c7eaa8442cae9ebfb16cc6fe60
-sharedVolumes: true
-type: remotedocker
-username: ninghai
