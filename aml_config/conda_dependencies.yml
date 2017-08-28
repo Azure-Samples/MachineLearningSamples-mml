@@ -11,7 +11,13 @@ dependencies:
   - python=3.5.2
   # ipykernel is required to use the remote/docker kernels in Jupyter Notebook.
   - ipykernel=4.6.1
+  - patsy
+  - scikit-learn
   - pip:
-    # This is the operationalization API for Azure Machine Learning. Details:
-    # https://github.com/Azure/Machine-Learning-Operationalization
+    - matplotlib
     - azure-ml-api-sdk==0.1.0a6
+    # RevoScalePy
+    - https://rserverdistribution.azureedge.net/production/pip/revoscalepy/9.2.0/2778/linux/397a83dd943a4039b6ed4ff83173466d/revoscalepy-9.2.0-py3-none-any.whl
+    # MicrosoftML
+    # - https://rserverdistribution.azureedge.net/production/pip/microsoftml/1.4.0/1283/linux/87a388a5b7f642088c88076f0cdb73c9/microsoftml-1.4.0-py3-none-any.whl
+    - /azureml-share/microsoftml-1.4.0-py3-none-any.whl

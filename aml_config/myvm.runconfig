@@ -1,0 +1,1 @@
+{"CondaDependenciesFile": null, "TrackedRun": true, "PrepareEnvironment": true, "SparkDependenciesFile": null, "ArgumentVector": ["$file"], "Target": "myvm", "Framework": "Python"}

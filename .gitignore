@@ -1,1 +1,4 @@
 .azuremlhistory_git
+.azureml
+.ipynb_checkpoints
+
