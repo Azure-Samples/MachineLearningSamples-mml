@@ -19,3 +19,7 @@ $ az ml execute start -c myvm  adult_census.py
 ```
 
 Check run history details to see plotted ROC graph.
+
+For more information:
+- [MicrosoftML package](https://docs.microsoft.com/en-us/sql/advanced-analytics/using-the-microsoftml-package)
+- [RevoScalePy package](https://docs.microsoft.com/en-us/sql/advanced-analytics/python/what-is-revoscalepy)
