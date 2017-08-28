@@ -74,11 +74,10 @@ try:
 except Exception as e:
     print(e)
 
-
-
 trees2 = rx_fast_trees("Label ~ age + fnlwgt + educationnum + capitalgain + capitalloss + education_cat",
                        data=train,
                        ml_transforms=[categorical(cols=dict(education_cat="education"))])
+
 y_pred2 = rx_predict(trees2, test)
 conf = confusion_matrix(test["Label"], y_pred2["PredictedLabel"])
 print(conf)
@@ -112,4 +111,5 @@ plt.ylabel("True Positive Rate")
 plt.title('ROC - Adult Data Set')
 plt.legend(loc="lower right")
 
+# save ROC to outputs
 plt.savefig('./outputs/roc.png')

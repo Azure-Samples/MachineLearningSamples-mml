@@ -1,4 +1,4 @@
-type: "localdocker"
+type: "docker"
 baseDockerImage: "microsoft/mmlspark:0.7"
 
 # Enabling Docker shared volumes will increase increase execution performance,
