@@ -1,6 +1,6 @@
 # Samples for using RevoScalePy and MicrosoftML packages
 
-Please use Docker on DSVM to try these samples. 
+Please use Docker on DSVM to try these samples. Local Docker doesn't work yet.
 
 First, create a DSVM compute target
 ```
