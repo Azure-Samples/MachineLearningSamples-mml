@@ -1,21 +1,10 @@
 # Samples for using RevoScalePy and MicrosoftML packages
 
-Please use Docker on DSVM to try these samples. Local Docker doesn't work yet.
+Please ensure your Docker engine allows at least 4 GB or RAM in order for this sample to run in Docker. 
 
-First, create a DSVM compute target
+Execute against Docker on docker
 ```
-$ az ml computecontext attach -n myvm -a <IPAddr> -u username -w password
-```
-
-Next, edit the _myvm.runconfig_ file under _aml_config_ folder and change Framework to Python:
-```
-...
-"Framework": "Python"
-...
-```
-Then, execute against Docker on the remove DSVM 
-```
-$ az ml execute start -c myvm  adult_census.py
+$ az ml execute start -c docker ./adult_census.py
 ```
 
 Check run history details to see plotted ROC graph.
