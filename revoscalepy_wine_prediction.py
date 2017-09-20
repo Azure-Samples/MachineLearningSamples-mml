@@ -1,6 +1,4 @@
 
-# coding: utf-8
-
 # 
 # # Predict wine quality with 'revoscalepy'
 # 
@@ -32,7 +30,8 @@
 
 # In[21]:
 
-
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import pandas
 import os
@@ -194,6 +193,7 @@ ax.set_ylabel("prediction")
 fig, ax = plt.subplots(1, 1)
 pred.plot.hexbin(x='quality', y='quality_Pred', ax=ax, gridsize=25)
 #plt.show()
+plt.savefig('./outputs/roc.png')
 
 
 # It seems to be doing a relatively good job to predict
