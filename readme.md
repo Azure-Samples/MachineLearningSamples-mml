@@ -28,7 +28,7 @@ $ az ml experiment submit -c local revoscalepy_wine_prediction.py
 Run in a local Docker container.
 Please ensure your Docker engine allows at least 4 GB or RAM in order for this sample to run in Docker.
 ```
-$ az ml experiment submit -c docker-python revoscalepy_wine_prediction.py
+$ az ml experiment submit -c docker revoscalepy_wine_prediction.py
 ```
 
 Create `myvm` run configuration to point to a Docker container on a remote VM
@@ -69,7 +69,7 @@ $ az ml experiment submit -c local adult_census.py
 Run in a local Docker container.
 Please ensure your Docker engine allows at least 4 GB or RAM in order for this sample to run in Docker.
 ```
-$ az ml experiment submit -c docker-python adult_census.py
+$ az ml experiment submit -c docker adult_census.py
 ```
 
 Create `myvm` run configuration to point to a Docker container on a remote VM
