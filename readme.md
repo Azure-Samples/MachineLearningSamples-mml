@@ -7,7 +7,7 @@ This gallery will showcase how to use 'revoscalepy" and 'microsoftml' for predic
 
 Please note, 'revoscalepy' and 'microsoftml' don't support Mac OS yet, therefore these samples won't work in Mac OS.
 
-# revoscalepy wine prediction sample
+# Wine quality prediction sample using 'revoscalepy' package
 
 Please 'pip install matplotlib' before try this sample, if it has not been installed.  
 
@@ -15,7 +15,7 @@ Please 'pip install matplotlib' before try this sample, if it has not been insta
 Navigate to the "Notebooks", open `revoscalepy_wine_prediction.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
 
 ## Quick CLI references
-If you want to try exercising the Iris sample from the command line, here are some things to try:
+If you want to try exercising this sample from the command line, here are some things to try:
 
 First, launch the Command Prompt or Powershell from the **File** menu.
 
@@ -38,12 +38,12 @@ $ az ml computetarget attach --name myvm --address <ip address or FQDN> --userna
 $ az ml experiment prepare -c myvm
 ```
 
-Run `revoscalepy_wine_prediction.py` PySpark script in a Docker container in a remote VM:
+Run `revoscalepy_wine_prediction.py` script in a Docker container in a remote VM:
 ```
 $ az ml experiment submit -c myvm revoscalepy_wine_prediction.py
 ```
 
-# microsoftml adult census sample
+# Adult census sample using 'microsoftml' package
 'microsoftml' is not bundled with Workbench installer, to run this sample, please first install the package.
 - For Windows: 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/windows/microsoftml-1.5.0-py3-none-any.whl'
 - For Linux (used in Docker): 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl'
@@ -54,7 +54,7 @@ Please 'pip install matplotlib' before try this sample, if it has not been insta
 Navigate to the "Notebooks", open `microsoftml_adult_census.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
 
 ## Quick CLI references
-If you want to try exercising the Iris sample from the command line, here are some things to try:
+If you want to try exercising this sample from the command line, here are some things to try:
 
 First, launch the Command Prompt or Powershell from the **File** menu.
 
@@ -77,7 +77,7 @@ $ az ml computetarget attach --name myvm --address <ip address or FQDN> --userna
 $ az ml experiment prepare -c myvm
 ```
 
-Run `adult_census.py` PySpark script in a Docker container in a remote VM:
+Run `adult_census.py` script in a Docker container in a remote VM:
 ```
 $ az ml experiment submit -c myvm adult_census.py
 ```
