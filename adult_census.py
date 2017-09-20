@@ -69,11 +69,6 @@ from sklearn.metrics import confusion_matrix
 conf = confusion_matrix(test["Label"], y_pred["PredictedLabel"])
 print(conf)
 
-try:
-    trees2 = rx_fast_trees("Label ~ age + fnlwgt + educationnum + capitalgain + capitalloss + education", data=train)
-except Exception as e:
-    print(e)
-
 trees2 = rx_fast_trees("Label ~ age + fnlwgt + educationnum + capitalgain + capitalloss + education_cat",
                        data=train,
                        ml_transforms=[categorical(cols=dict(education_cat="education"))])
