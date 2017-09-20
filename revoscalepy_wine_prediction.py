@@ -193,7 +193,7 @@ ax.set_ylabel("prediction")
 fig, ax = plt.subplots(1, 1)
 pred.plot.hexbin(x='quality', y='quality_Pred', ax=ax, gridsize=25)
 #plt.show()
-plt.savefig('./outputs/roc.png')
+plt.savefig('./outputs/predict.png')
 
 
 # It seems to be doing a relatively good job to predict
