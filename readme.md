@@ -64,11 +64,10 @@ $ az ml experiment submit -c local adult_census.py
 ```
 
 Run in a local Docker container.
-Please ensure your Docker engine allows at least 4 GB or RAM in order for this sample to run in Docker.
-```
-$ az ml experiment submit -c docker-python adult_census.py
-```
+**This sample doesn't support running in local docker yet. The support will come soon**
 
+
+Run in a Remove VM
 Create `myvm` run configuration to point to a Docker container on a remote VM
 ```
 $ az ml computetarget attach --name myvm --address <ip address or FQDN> --username <username> --password <pwd> --type remotedocker
