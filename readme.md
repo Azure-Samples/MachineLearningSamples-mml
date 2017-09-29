@@ -54,7 +54,8 @@ pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2
 ```
 
 - For Linux (used in Docker): 
-```pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl
+```
+pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl
 ```
 
 Please `pip install matplotlib` before try this sample, if it has not been installed.  
