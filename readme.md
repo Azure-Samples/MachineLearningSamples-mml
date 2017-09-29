@@ -48,10 +48,16 @@ $ az ml experiment submit -c myvm revoscalepy_wine_prediction.py
 ![Adult census analytis](icon_adult_census.png)
 
 'microsoftml' is not bundled with Workbench installer, to run this sample, please first install the package.
-- For Windows: 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/windows/microsoftml-1.5.0-py3-none-any.whl'
-- For Linux (used in Docker): 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl'
+- For Windows: 
+```
+pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/windows/microsoftml-1.5.0-py3-none-any.whl
+```
 
-Please 'pip install matplotlib' before try this sample, if it has not been installed.  
+- For Linux (used in Docker): 
+```pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl
+```
+
+Please `pip install matplotlib` before try this sample, if it has not been installed.  
 
 ## QuickStart
 Navigate to the "Notebooks", open `microsoftml_adult_census.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
