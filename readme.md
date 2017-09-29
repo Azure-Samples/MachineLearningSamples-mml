@@ -1,16 +1,16 @@
 # Samples for using RevoScalePy and MicrosoftML packages
-['revoscalepy'](https://docs.microsoft.com/en-us/sql/advanced-analytics/python/what-is-revoscalepy) and ['microsoftml'](https://docs.microsoft.com/en-us/sql/advanced-analytics/using-the-microsoftml-package) are machine learning libraries provided by Microsoft. They contain many battled tested and high performance machine learning algorithms. 
+[`revoscalepy`](https://docs.microsoft.com/en-us/sql/advanced-analytics/python/what-is-revoscalepy) and [`microsoftml`](https://docs.microsoft.com/en-us/sql/advanced-analytics/using-the-microsoftml-package) are machine learning libraries provided by Microsoft. They contain many battled tested and high performance machine learning algorithms. 
 
 This gallery will showcase how to use 'revoscalepy" and 'microsoftml' for predictive analytics. There are 2 samples in this gallery:
 1. Wine quality prediction with revoscalepy functions (Notebook file" 'revoscalepy_wine_prediction.ipynb'; Python script: 'revoscalepy_wine_prediction.py')
 2. Adult census analysis with microsoftml functions (Notebook file: 'microsoftml_adult_census.ipynb'; Python script: 'adult_census.py')
 
-Please note, 'revoscalepy' and 'microsoftml' **don't support Mac OS yet**, therefore these samples won't work in Mac OS.
+Please note, `revoscalepy` and `microsoftml` **don't support Mac OS yet**, therefore these samples won't work in Mac OS.
 
 # Wine quality prediction sample using 'revoscalepy' package
 ![Wine quality prediction](icon_wine_quality.png)
 
-Please 'pip install matplotlib' before try this sample, if it has not been installed.  
+Please `pip install matplotlib` before try this sample, if it has not been installed.  
 
 ## QuickStart
 Navigate to the "Notebooks", open `revoscalepy_wine_prediction.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
