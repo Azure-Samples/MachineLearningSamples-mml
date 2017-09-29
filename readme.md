@@ -7,15 +7,15 @@ This gallery will showcase how to use 'revoscalepy" and 'microsoftml' for predic
 
 Please note, `revoscalepy` and `microsoftml` **don't support Mac OS yet**, therefore these samples won't work in Mac OS.
 
-# Wine quality prediction sample using `revoscalepy` package
+## Wine quality prediction sample using `revoscalepy` package
 ![Wine quality prediction](icon_wine_quality.png)
 
 Please `pip install matplotlib` before try this sample, if it has not been installed.  
 
-## QuickStart
+### QuickStart
 Navigate to the "Notebooks", open `revoscalepy_wine_prediction.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
 
-## Quick CLI references
+### Quick CLI references
 If you want to try exercising this sample from the command line, here are some things to try:
 
 First, launch the Command Prompt or Powershell from the **File** menu.
@@ -44,7 +44,7 @@ Run `revoscalepy_wine_prediction.py` script in a Docker container in a remote VM
 $ az ml experiment submit -c myvm revoscalepy_wine_prediction.py
 ```
 
-# Adult census sample using `microsoftml` package
+## Adult census sample using `microsoftml` package
 ![Adult census analytis](icon_adult_census.png)
 
 `microsoftml` is not bundled with Workbench installer, to run this sample, please first install the package.
@@ -60,10 +60,10 @@ pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2
 
 Please `pip install matplotlib` before try this sample, if it has not been installed.  
 
-## QuickStart
+### QuickStart
 Navigate to the "Notebooks", open `microsoftml_adult_census.ipynb`, click **Start the Notebook Server** button, and execute the script to run through the sample.
 
-## Quick CLI references
+### Quick CLI references
 If you want to try exercising this sample from the command line, here are some things to try:
 
 First, launch the Command Prompt or Powershell from the **File** menu.
