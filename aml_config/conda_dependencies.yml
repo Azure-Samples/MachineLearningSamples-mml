@@ -18,7 +18,7 @@ dependencies:
     - matplotlib
     # The API for Azure Machine Learning Model Management Service.
     # Details: https://github.com/Azure/Machine-Learning-Operationalization
-    - azure-ml-api-sdk==0.1.0a9
+    - azure-ml-api-sdk==0.1.0a11
     
     # RevoScalePy
     - https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/revoscalepy-9.2.1-py3-none-any.whl
