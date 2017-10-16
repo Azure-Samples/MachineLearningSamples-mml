@@ -5,7 +5,13 @@ This gallery will showcase how to use 'revoscalepy" and 'microsoftml' for predic
 1. Wine quality prediction with revoscalepy functions (Notebook file" 'revoscalepy_wine_prediction.ipynb'; Python script: `revoscalepy_wine_prediction.py`)
 2. Adult census analysis with microsoftml functions (Notebook file: `microsoftml_adult_census.ipynb`; Python script: `adult_census.py`)
 
-Please note, `revoscalepy` and `microsoftml` **don't support Mac OS yet**, therefore these samples won't work in Mac OS.
+Please note:
+1. 'revoscalepy' and 'microsoftml' **don't support Mac OS yet**, therefore these samples won't work in Mac OS.
+2. 'microsoftml' is not bundled with Workbench installer, to run **Adult census analysis** sample, please first install the package.
+```
+- For Windows: 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/windows/microsoftml-1.5.0-py3-none-any.whl'
+- For Linux (used in Docker): 'pip install https://rserverdistribution.azureedge.net/production/revoscalepy/9.2.1/wb/1033/d282048eb04046999211535f7368a0a4/linux/microsoftml-1.5.0-py3-none-any.whl'
+```
 
 ## Wine quality prediction sample using `revoscalepy` package
 ![Wine quality prediction](icon_wine_quality.png)
