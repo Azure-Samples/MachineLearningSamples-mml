@@ -1,4 +1,7 @@
 # Samples for using RevoScalePy and MicrosoftML packages
+
+> **NOTE** This content is no longer maintained. Visit the [Azure Machine Learning Notebook](https://github.com/Azure/MachineLearningNotebooks) project for sample Jupyter notebooks for ML and deep learning with Azure Machine Learning.
+
 [`revoscalepy`](https://docs.microsoft.com/en-us/sql/advanced-analytics/python/what-is-revoscalepy) and [`microsoftml`](https://docs.microsoft.com/en-us/sql/advanced-analytics/using-the-microsoftml-package) are machine learning libraries provided by Microsoft. They contain many battled tested and high performance machine learning algorithms. 
 
 This gallery will showcase how to use 'revoscalepy" and 'microsoftml' for predictive analytics. There are 2 samples in this gallery:
